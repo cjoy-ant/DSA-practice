@@ -1,0 +1,22 @@
+Big O Notation
+
+O(1) Constant
+
+Runtime of an algorithm is independent of the input size
+An operation will have the same runtime despite of the size of n
+Example: printing an array with 1 element, printing an array of 100 elements
+
+O(n) Linear
+
+Runtime of an algorithm increases as n or the size of the input increases
+Example: looping through an array and printing each index -- this will take longer with more elements within the array
+
+O(n^2) Polynomial or Quadratic
+
+Runtime of an algorithm increases significantly as the input increases (it is n^2 or n*n)
+Example: bubble sort which repeatedly swaps adjacent values that are in the wrong order, as n increases, the number of swaps that needs to occur increases significantly
+
+O(log(n)) Logarithmic
+
+Runtime of an algorithm increases consistently as the input increases exponentially
+Example: binarySearch or mergeSort
